@@ -6,7 +6,7 @@ import socketserver
 
 #receive an asym
 class ClientHandler(socketserver.BaseRequestHandler):
-    def handle(self):# -1-
+    def handle(self):#
         encrypted_key=self.request.recv(2048).strip()
         #print('Implement decryption of data '+encrypted_key)
         print('Encrypted key received by host : {}'.format(self.client_address[0]))

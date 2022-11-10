@@ -13,7 +13,7 @@ This was writed for a educational purpose , do not use it on someone else networ
 ## Setup  
 ```shell  
 #setup shell cmd  
-$git clone git@github... 
+$git clone https://github.com/0script/ransomware-client-server
 $cd ransomware-client-server 
 #genrate rsa keys
 $openssl genrsa -out private.pem 2948
